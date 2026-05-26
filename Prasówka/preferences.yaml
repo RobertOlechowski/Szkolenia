@@ -1,0 +1,38 @@
+# Preferencje użytkownika — edytuj wedle potrzeb
+
+interests:
+  high_priority:
+    - name: "cyberbezpieczeństwo"
+      keywords: ["cybersecurity", "security", "breach", "hack", "vulnerability", "CVE", "exploit", "ransomware", "phishing", "malware", "bezpieczeństwo", "atak", "wyciek", "podatność", "zagrożenie"]
+    - name: "polityka"
+      keywords: ["politics", "election", "government", "parliament", "sejm", "senat", "ustawa", "rząd", "wybory", "koalicja", "opozycja", "prezydent", "premier"]
+    - name: "gospodarka"
+      keywords: ["economy", "GDP", "PKB", "inflacja", "inflation", "recession", "recesja", "bezrobocie", "unemployment", "wzrost gospodarczy", "economic growth", "trade", "handel"]
+    - name: "druk 3D"
+      keywords: ["3D printing", "3D print", "additive manufacturing", "drukarka 3D", "filament", "SLA", "FDM", "SLS", "resin"]
+    - name: "elektronika"
+      keywords: ["electronics", "DIY", "Arduino", "Raspberry Pi", "ESP32", "PCB", "IoT", "embedded", "hardware", "mikrokontroler", "układ"]
+    - name: "kryptowaluty"
+      keywords: ["crypto", "cryptocurrency", "Bitcoin", "BTC", "Ethereum", "ETH", "blockchain", "DeFi", "token", "mining", "giełda krypto", "stablecoin"]
+
+  normal:
+    - name: "AI i uczenie maszynowe"
+      keywords: ["AI", "artificial intelligence", "machine learning", "LLM", "GPT", "Claude", "deep learning", "neural network", "sztuczna inteligencja", "model językowy", "sieci neuronowe", "generative AI"]
+    - name: "technologia"
+      keywords: ["tech", "startup", "software", "app", "cloud", "SaaS", "open source", "Linux", "programming", "developer", "API"]
+    - name: "nauka"
+      keywords: ["science", "research", "study", "discovery", "physics", "biology", "chemistry", "space", "NASA", "badania", "odkrycie", "kosmos", "fizyka"]
+    - name: "finanse osobiste"
+      keywords: ["personal finance", "investing", "investment", "stock", "fund", "oszczędności", "inwestycje", "akcje", "obligacje", "ETF", "portfel", "dywidenda"]
+
+exclude_topics:
+  - name: "sport"
+    keywords: ["sport", "football", "soccer", "league", "match", "piłka nożna", "liga", "mecz", "olimpiada", "igrzyska", "mistrzostwa"]
+  - name: "celebryci"
+    keywords: ["celebrity", "celebrities", "gossip", "skandal", "plotka", "gwiazda", "influencer", "reality show"]
+  - name: "plotki"
+    keywords: ["rumor", "tabloid", "paparazzi"]
+
+summary_style: "szczegółowy"    # zwięzły | szczegółowy
+language: "pl"                  # język raportów — wszystkie streszczenia zawsze po polsku
+max_articles: 30                # limit artykułów w jednym raporcie

@@ -1,0 +1,79 @@
+# Lista źródeł informacyjnych
+
+sources:
+  # === Polskie portale ===
+  - name: "Niebezpiecznik"
+    url: "https://niebezpiecznik.pl"
+    rss: "https://niebezpiecznik.pl/feed/"
+    enabled: true
+
+  - name: "Zaufana Trzecia Strona"
+    url: "https://zaufanatrzeciastrona.pl"
+    rss: "https://zaufanatrzeciastrona.pl/feed/"
+    enabled: true
+
+  - name: "Sekurak"
+    url: "https://sekurak.pl"
+    rss: "https://sekurak.pl/feed/"
+    enabled: true
+
+  - name: "TVN24"
+    url: "https://tvn24.pl"
+    rss: "https://www.tvn24.pl/najnowsze.xml"
+    enabled: true
+
+  - name: "Bankier.pl"
+    url: "https://www.bankier.pl"
+    rss: "https://www.bankier.pl/rss/wiadomosci.xml"
+    enabled: true
+
+  - name: "Money.pl"
+    url: "https://www.money.pl"
+    rss: "https://www.money.pl/rss/rss.xml"
+    enabled: true
+
+  - name: "Puls Biznesu"
+    url: "https://www.pb.pl"
+    rss: "https://www.pb.pl/rss/all"
+    enabled: true
+
+  # === Zagraniczne portale ===
+  - name: "Hacker News"
+    url: "https://news.ycombinator.com"
+    rss: "https://hnrss.org/frontpage"
+    enabled: true
+
+  - name: "TechCrunch"
+    url: "https://techcrunch.com"
+    rss: "https://techcrunch.com/feed/"
+    enabled: true
+
+  - name: "Ars Technica"
+    url: "https://arstechnica.com"
+    rss: "https://feeds.arstechnica.com/arstechnica/index"
+    enabled: true
+
+  - name: "BleepingComputer"
+    url: "https://www.bleepingcomputer.com"
+    rss: "https://www.bleepingcomputer.com/feed/"
+    enabled: true
+
+  - name: "CoinDesk"
+    url: "https://www.coindesk.com"
+    rss: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+    enabled: true
+
+  - name: "3DPrint.com"
+    url: "https://3dprint.com"
+    rss: "https://3dprint.com/feed/"
+    enabled: true
+
+  - name: "Hackaday"
+    url: "https://hackaday.com"
+    rss: "https://hackaday.com/feed/"
+    enabled: true
+
+# Konfiguracja globalna
+settings:
+  max_article_age_hours: 48      # maksymalny wiek artykułu w godzinach
+  request_timeout_seconds: 15    # timeout dla zapytań HTTP
