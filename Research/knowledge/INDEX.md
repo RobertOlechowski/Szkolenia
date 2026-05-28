@@ -7,14 +7,14 @@ Baza wiedzy inwestycyjnej budowana iteracyjnie przez agenta AI. Każdy temat pow
 | Katalog | Opis | Artykułów |
 |---------|------|-----------|
 | [europejskie-spolki-zbrojeniowe/](europejskie-spolki-zbrojeniowe/) | Główni europejscy producenci uzbrojenia i systemów obronnych | 5 |
-| [uran-i-energia-jadrowa/](uran-i-energia-jadrowa/) | ETF-y uranowe, firmy budujące reaktory, korelacje cenowe | 8 |
+| [uran-i-energia-jadrowa/](uran-i-energia-jadrowa/) | ETF-y uranowe, firmy budujące reaktory, korelacje cenowe, rynek fundamenty | 10 |
 | [dostepnosc-brokerzy/](dostepnosc-brokerzy/) | Dostępność instrumentów na platformach XTB, Saxo, BOŚ | 3 |
 
 ## Statystyki
 
-- **Artykułów:** 16
+- **Artykułów:** 18
 - **Katalogów:** 7
-- **Ostatnia aktualizacja:** 2026-05-26
+- **Ostatnia aktualizacja:** 2026-05-27
 
 ## Powiązania między tematami
 
